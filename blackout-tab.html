@@ -1,0 +1,21 @@
+<html>
+  <!--Chrome Browsers displays new tabs as "chrome://newtab" or "New Tab". The line below add a special character for whitespace-->
+  <title>&#xFEFF;</title>
+  <meta charset="UTF-8" />
+  <style>
+    @keyframes fadeToBlack {
+      from {
+        background-color: hsla(0, 0%, 20%, 1);
+      }
+      to {
+        background-color: hsla(0, 0%, 0%, 1);
+      }
+    }
+    body {
+      background-color: hsla(0, 0%, 0%, 1);
+      animation-name: fadeToBlack;
+      animation-duration: 2.5s;
+    }
+  </style>
+  <body></body>
+</html>
